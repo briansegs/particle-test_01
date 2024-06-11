@@ -1,0 +1,77 @@
+{
+  "interactivity": {
+    "events": {
+      "onHover": {
+        "enable": true,
+        "mode": "bubble"
+      },
+      "onClick": {
+        "enable": true,
+        "mode": "push"
+      }
+    },
+    "modes": {
+      "bubble": {
+        "opacity": 0.8,
+        "size": 10,
+        "color": {
+          "value": "#fff"
+        }
+      }
+    }
+  },
+  "particles": {
+    "color": {
+      "value": [
+        "#fff",
+        "#fff",
+        "#fff",
+        "#aa73ff",
+        "#f8c210",
+        "#83d238",
+        "#33b1f8"
+      ]
+    },
+    "opacity": {
+      "value": 0.5
+    },
+    "links": {
+      "enable": true
+    },
+    "move": {
+      "enable": true
+    },
+    "number": {
+      "density": {
+        "enable": true
+      },
+      "value": 200
+    },
+    "size": {
+      "value": 2
+    }
+  },
+  "polygon": {
+    "draw": {
+      "enable": true,
+      "stroke": {
+        "color": "#fff",
+        "width": 0.5,
+        "opacity": 0.2
+      }
+    },
+    "enable": true,
+    "move": {
+      "radius": 10
+    },
+    "inline": {
+      "arrangement": "equidistant"
+    },
+    "scale": 2,
+    "type": "inline",
+    "url": "https://particles.js.org/images/hollowknight.svg"
+  },
+  "fullScreen": {
+    "enable": false
+  }
+}
