@@ -1,6 +1,4 @@
 {
-  "key": "hollowknight",
-  "name": "Hollow Knight",
   "interactivity": {
     "events": {
       "onHover": {
@@ -17,7 +15,7 @@
         "distance": 80,
         "duration": 2,
         "opacity": 1,
-        "size": 10,
+        "size": 12,
         "color": {
           "value": ["#fff", "#fff", "#fff", "#00ffff", "#fffeac"]
         }
@@ -30,7 +28,7 @@
         "radius": 60
       },
       "grab": {
-        "distance": 400,
+        "distance": 200,
         "links": {
           "opacity": 1
         }
@@ -54,38 +52,38 @@
   },
   "particles": {
     "color": {
-      "value": ["#fff", "#fff", "#fff", "#33b1f8", "#00ffff", "#fffeac"]
+      "value": ["#fff", "#fff", "#fffeb8", "#fffc4c", "#00ffff"]
     },
     "links": {
       "blink": false,
       "color": {
-        "value": ["#fff", "#fff", "#fff", "#00ffff", "#fffeac"]
+        "value": "#fff"
       },
       "consent": false,
-      "distance": 15,
+      "distance": 18,
       "enable": true,
       "opacity": 0.4,
-      "width": 10
+      "width": 0.5
     },
     "move": {
       "enable": true,
       "outModes": "bounce",
-      "speed": 0.5
+      "speed": 0.2
     },
     "number": {
       "density": {
         "enable": false
       },
-      "value": 300
+      "value": 500
     },
     "opacity": {
       "animation": {
         "enable": true,
-        "speed": 2,
+        "speed": 0.8,
         "sync": false
       },
       "value": {
-        "min": 0.05,
+        "min": 0,
         "max": 0.4
       }
     },
@@ -95,33 +93,6 @@
     "size": {
       "value": 2
     }
-  },
-  "polygon": {
-    "draw": {
-      "enable": true,
-      "stroke": {
-        "color": "#fff",
-        "width": 0.5,
-        "opacity": 0.2
-      }
-    },
-    "enable": true,
-    "move": {
-      "radius": 10
-    },
-    "inline": {
-      "arrangement": "equidistant"
-    },
-    "scale": 2,
-    "type": "inline",
-    "url": "https://particles.js.org/images/hollowknight.svg"
-  },
-  "background": {
-    "color": "",
-    "image": "url('./bg_01.png')",
-    "position": "50% 50%",
-    "repeat": "no-repeat",
-    "size": "cover"
   },
   "fullScreen": {
     "enable": false
