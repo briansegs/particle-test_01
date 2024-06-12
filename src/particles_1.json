@@ -19,15 +19,7 @@
         "opacity": 1,
         "size": 10,
         "color": {
-          "value": [
-            "#fff",
-            "#fff",
-            "#fff",
-            "#aa73ff",
-            "#f8c210",
-            "#83d238",
-            "#33b1f8"
-          ]
+          "value": ["#fff", "#fff", "#fff", "#33b1f8", "#00ffff", "#fffeac"]
         }
       },
       "connect": {
@@ -62,20 +54,12 @@
   },
   "particles": {
     "color": {
-      "value": [
-        "#fff",
-        "#fff",
-        "#fff",
-        "#aa73ff",
-        "#f8c210",
-        "#83d238",
-        "#33b1f8"
-      ]
+      "value": ["#fff", "#fff", "#fff", "#33b1f8", "#00ffff", "#fffeac"]
     },
     "links": {
       "blink": false,
       "color": {
-        "value": ["#fff", "#fff", "#fff", "#33b1f8"]
+        "value": ["#fff", "#fff", "#fff", "#00ffff", "#fffeac"]
       },
       "consent": false,
       "distance": 15,
@@ -106,7 +90,7 @@
       }
     },
     "shape": {
-      "type": "circle"
+      "type": "edge"
     },
     "size": {
       "value": 2
