@@ -19,7 +19,7 @@
         "opacity": 1,
         "size": 10,
         "color": {
-          "value": ["#fff", "#fff", "#fff", "#33b1f8", "#00ffff", "#fffeac"]
+          "value": ["#fff", "#fff", "#fff", "#00ffff", "#fffeac"]
         }
       },
       "connect": {
