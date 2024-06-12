@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadFull } from "tsparticles";
 import particlesOptions from "../particles_1.json";
-import logo from "../logo.svg";
+import avatar from "../avatar_01.png";
 
 const Hero = () => {
   const [init, setInit] = useState(false);
@@ -24,7 +24,7 @@ const Hero = () => {
       <div className="hero_left">
         {init && <Particles options={particlesOptions} />}
         <div>
-          <img src={logo} className="App-logo" alt="logo" />
+          <img src={avatar} className="Avatar" alt="avatar" />
         </div>
       </div>
 
