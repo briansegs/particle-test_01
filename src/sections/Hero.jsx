@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadFull } from "tsparticles";
 import particlesOptions from "../particles_1.json";
-import avatar from "../avatar_01.png";
+import avatar from "../avatar_03.png";
 
 const Hero = () => {
   const [init, setInit] = useState(false);
